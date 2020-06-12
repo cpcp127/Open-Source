@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:fontFamily="@font/bam"
+                android:text="체온:   "
+                android:textSize="30dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*꼭 모두 체크해주세요!"
+                android:layout_marginLeft="10dp"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="체온"
+                    android:textColor="#FF000000"
+                    android:fontFamily="@font/bam"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="미열"
+
+                    android:fontFamily="@font/bam"
+                    android:onClick="onRadioButtonClicked"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="정상"
+                    android:fontFamily="@font/bam"
+                    android:onClick="onRadioButtonClicked"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="고열"
+                    android:fontFamily="@font/bam"
+                    android:onClick="onRadioButtonClicked"/>
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="콧물"
+                    android:textColor="#FF000000"
+                    android:fontFamily="@font/bam"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+                <RadioButton
+                    android:id="@+id/radioButton7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked1"
+                    android:fontFamily="@font/bam"
+                    android:text="없음" />
+
+                <RadioButton
+                    android:id="@+id/radioButton8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked1"
+                    android:fontFamily="@font/bam"
+                    android:text="투명한색" />
+
+                <RadioButton
+                    android:id="@+id/radioButton9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked1"
+                    android:fontFamily="@font/bam"
+                    android:text="노르스름한색" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="가래"
+                    android:textColor="#FF000000"
+                    android:fontFamily="@font/bam"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="없음"
+                    android:fontFamily="@font/bam"
+                    android:onClick="onRadioButtonClicked2"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bam"
+                    android:onClick="onRadioButtonClicked2"
+                    android:text="투명한 가래" />
+
+                <RadioButton
+                    android:id="@+id/radioButton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="피가 섞인 가래"
+                    android:fontFamily="@font/bam"
+                    android:onClick="onRadioButtonClicked2"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="기침"
+                    android:textColor="#FF000000"
+                    android:fontFamily="@font/bam"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+                <RadioButton
+                    android:id="@+id/radioButton10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="약한 기침"
+                    android:fontFamily="@font/bam"
+                    android:onClick="onRadioButtonClicked3"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="심한 기침"
+                    android:fontFamily="@font/bam"
+                    android:onClick="onRadioButtonClicked3"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="연발적,발작적"
+                    android:fontFamily="@font/bam"
+                    android:onClick="onRadioButtonClicked3"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="두통,근육통"
+                    android:textColor="#FF000000"
+                    android:fontFamily="@font/bam"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+                <RadioButton
+                    android:id="@+id/radioButton13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="약하거나 없음"
+                    android:fontFamily="@font/bam"
+                    android:onClick="onRadioButtonClicked4"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="몸살 증상"
+                    android:fontFamily="@font/bam"
+                    android:onClick="onRadioButtonClicked4"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked4"
+                    android:text="가슴 고통"
+                    android:fontFamily="@font/bam"/>
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="피로감"
+                    android:textColor="#FF000000"
+                    android:fontFamily="@font/bam"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+                <RadioButton
+                    android:id="@+id/radioButton17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="약하거나 없음"
+                    android:fontFamily="@font/bam"
+                    android:onClick="onRadioButtonClicked5"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked5"
+                    android:text="지속적인 피로감"
+                    android:fontFamily="@font/bam"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="쉽게 피로를 느낌"
+                    android:fontFamily="@font/bam"
+                    android:onClick="onRadioButtonClicked5"/>
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="30dp"
+                android:onClick="onButton1"
+                android:text="결과보기" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

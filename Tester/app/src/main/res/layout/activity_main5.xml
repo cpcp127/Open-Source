@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/green"
+    tools:context=".Main5Activity">
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/bam"
+        android:text="예방접종 목록"
+        android:textColor="@color/colorAccent"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="412dp"
+        android:layout_marginTop="30dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="@drawable/oval"
+                android:fontFamily="@font/bam"
+                android:onClick="onButtonClicked7"
+                android:text="결핵" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/oval"
+                android:fontFamily="@font/bam"
+                android:onClick="onButtonClicked7"
+                android:text="B형 간염" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/oval"
+                android:fontFamily="@font/bam"
+                android:onClick="onButtonClicked7"
+                android:text="뇌수막염" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+
+                android:background="@drawable/oval"
+                android:fontFamily="@font/bam"
+                android:onClick="onButtonClicked7"
+                android:text="소아마비" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/oval"
+                android:fontFamily="@font/bam"
+                android:onClick="onButtonClicked7"
+                android:text="폐렴구균" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/oval"
+                android:fontFamily="@font/bam"
+                android:onClick="onButtonClicked7"
+                android:text="DPT" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="@drawable/oval"
+                android:fontFamily="@font/bam"
+                android:onClick="onButtonClicked7"
+                android:text="수두" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/oval"
+                android:fontFamily="@font/bam"
+                android:onClick="onButtonClicked7"
+                android:text="MMR" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/oval"
+                android:fontFamily="@font/bam"
+                android:onClick="onButtonClicked7"
+                android:text="일본뇌염" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="@drawable/oval"
+                android:fontFamily="@font/bam"
+                android:onClick="onButtonClicked7"
+                android:text="인플루엔자" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/oval"
+                android:fontFamily="@font/bam"
+                android:onClick="onButtonClicked7"
+                android:text="장티푸스" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/oval"
+                android:fontFamily="@font/bam"
+                android:onClick="onButtonClicked7"
+                android:text="콤보백신" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/bam"
+        android:text="표준 예방접종 일정표 보기" />
+
+</LinearLayout>

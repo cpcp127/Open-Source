@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/green">
+
+
+    <TextView
+        android:id="@+id/tvReceiveData"
+        android:layout_width="142dp"
+        android:layout_height="84dp"
+        android:layout_alignStart="@+id/progressBar"
+        android:layout_alignLeft="@+id/progressBar"
+        android:layout_alignTop="@+id/progressBar"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="149dp"
+        android:fontFamily="@font/bam"
+        android:gravity="center_horizontal"
+        android:text="0.00"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/celsius"
+        android:layout_toRightOf="@+id/tvReceiveData"
+        android:layout_marginTop="147dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="396dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="2dp"
+        android:indeterminateDrawable="@drawable/cpb3"
+        android:maxWidth="10dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/diagnosis" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="400dp"
+        android:layout_toRightOf="@+id/button9"
+        android:background="@drawable/syringe" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/bam"
+        android:background="@drawable/icon" ></Button>
+
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="530dp"
+        android:fontFamily="@font/bam"
+        android:text="자가진단"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="530dp"
+        android:layout_toRightOf="@+id/textView30"
+        android:fontFamily="@font/bam"
+        android:text="예방접종"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+</RelativeLayout>

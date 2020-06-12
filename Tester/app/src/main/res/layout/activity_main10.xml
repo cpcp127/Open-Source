@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/green"
+    tools:context=".Main8Activity">
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/bam"
+        android:text="BGC"
+        android:textColor="#FF000000"/>
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#FF000000"
+        android:fontFamily="@font/bam"
+        android:text="결핵을 예방하는 접종" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF000000"
+        android:fontFamily="@font/bam"
+        android:text="설명" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:fontFamily="@font/bam"
+        android:textColor="#FF000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:fontFamily="@font/bam"
+        android:textColor="#FF000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="접종스케줄" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:fontFamily="@font/bam"
+        android:textColor="#FF000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:fontFamily="@font/bam"
+        android:textColor="#FF000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="접종대상" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:fontFamily="@font/bam"
+        android:textColor="#FF000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:fontFamily="@font/bam"
+        android:textColor="#FF000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="접종 시 이상 반응" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:fontFamily="@font/bam"
+        android:textColor="#FF000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

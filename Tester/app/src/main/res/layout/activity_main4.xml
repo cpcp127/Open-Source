@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/green"
+    tools:context=".Main4Activity">
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bam"
+        android:gravity="center"
+        android:textColor="#FF000000"
+        android:text="정보 입력"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bam"
+        android:text="이름"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/bam"
+        android:inputType="textPersonName" />
+
+    <RadioGroup
+        android:id="@+id/rg8"
+        android:layout_width="259dp"
+        android:layout_height="97dp">
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bam"
+            android:text="성별"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <RadioButton
+            android:id="@+id/radioButton16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bam"
+            android:onClick="onRadioButtonClicked6"
+            android:text="남성" />
+
+        <RadioButton
+            android:id="@+id/radioButton20"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bam"
+            android:onClick="onRadioButtonClicked6"
+            android:text="여성" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bam"
+        android:text="나이"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    <NumberPicker
+        android:id="@+id/picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="250dp"
+        android:background="@drawable/next"
+        android:fontFamily="@font/bam"
+        android:gravity="right" />
+
+</LinearLayout>
