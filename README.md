@@ -12,10 +12,8 @@ SmartThermometer_Arduino & SmartThermometer_Application
 - Android Studio
 
 ## 2. 구성 및 설명
-- [Main4Activity.java]
-(https://github.com/cpcp127/Open-Source/blob/master/Tester/app/src/main/java/com/example/tester/Main4Activity.java) ,
-[activity_main4.xml]
-(https://github.com/cpcp127/Open-Source/blob/master/Tester/app/src/main/res/layout/activity_main4.xml)
+- [Main4Activity.java](https://github.com/cpcp127/Open-Source/blob/master/Tester/app/src/main/java/com/example/tester/Main4Activity.java) ,
+[activity_main4.xml](https://github.com/cpcp127/Open-Source/blob/master/Tester/app/src/main/res/layout/activity_main4.xml)
 - 처음으로 이름,성별,나이를 입력하는 액티비티
 - 입력후 정보를 확인시켜주는 AlertDialog 띄움
 - 확인시 화면 전환
