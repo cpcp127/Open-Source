@@ -36,15 +36,14 @@ SmartThermometer_Arduino & SmartThermometer_Application
 - [Main2Activity.java](https://github.com/cpcp127/Open-Source/blob/master/Tester/app/src/main/java/com/example/tester/MainActivity2.java) ,
 [activity_main2.xml](https://github.com/cpcp127/Open-Source/blob/master/Tester/app/src/main/res/layout/activity_main2.xml)
 
-
--자가진단을 하고 결과를 보는 엑티비티
--각 항목마다 어떤 질병이 예상되는지 자기 주관으로 예측가능
--주위의 약국,병원 찾기 생활습관, 몸에 좋은 음식 확인 가능
--약국 병원 찾기는 uri intent로 구글에 검색에서 바로 검색
+- 자가진단을 하고 결과를 보는 엑티비티
+- 각 항목마다 어떤 질병이 예상되는지 자기 주관으로 예측가능
+- 주위의 약국,병원 찾기 생활습관, 몸에 좋은 음식 확인 가능
+- 약국 병원 찾기는 uri intent로 구글에 검색에서 바로 검색
 <img src="./스크린샷/5.jpg" width="200"><img src="./스크린샷/6.jpg" width="200"><img src="./스크린샷/9.jpg" width="200"><img src="./스크린샷/7.jpg" width="200">
 
 
--자신이 의심되는 질병을 선택한뒤 그 질병에 좋은 음식 및 생활 습관 확인
+- 자신이 의심되는 질병을 선택한뒤 그 질병에 좋은 음식 및 생활 습관 확인
 
 <img src="./스크린샷/8.jpg" width="200"><img src="./스크린샷/11.jpg" width="200"><img src="./스크린샷/12.jpg" width="200">
 
