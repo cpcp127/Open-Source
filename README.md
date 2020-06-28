@@ -41,6 +41,7 @@ SmartThermometer_Arduino & SmartThermometer_Application
 - 주위의 약국,병원 찾기 생활습관, 몸에 좋은 음식 확인 가능
 - 약국 병원 찾기는 uri intent로 구글에 검색에서 바로 검색
 <img src="./스크린샷/5.jpg" width="200"><img src="./스크린샷/6.jpg" width="200">
+
 <img src="./스크린샷/9.jpg" width="200"><img src="./스크린샷/7.jpg" width="200">
 
 
