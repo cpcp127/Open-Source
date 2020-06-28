@@ -17,6 +17,7 @@ SmartThermometer_Arduino & SmartThermometer_Application
 
 - 처음으로 이름,성별,나이를 입력하는 액티비티
 - 입력후 정보를 확인시켜주는 AlertDialog 띄움
+
 <img src="./스크린샷/2.jpg" width="200" ><img src="./스크린샷/3.jpg" width="200">
 
 -체온을 받아와서 체온을 확인하고 자가진단 및 예방접종을 확인하는 엑티비티
