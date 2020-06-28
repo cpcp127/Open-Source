@@ -12,19 +12,21 @@ SmartThermometer_Arduino & SmartThermometer_Application
 - Android Studio
 
 ## 2. 구성 및 설명
-- 처음으로 이름,성별,나이를 입력하는 액티비티
-- 입력후 정보를 확인시켜주는 AlertDialog 띄움
-- 확인시 화면 전환
-<img src="./스크린샷/2.jpg" width="200"><img src="./스크린샷/3.jpg" width="200">
 - [Main4Activity.java](https://github.com/cpcp127/Open-Source/blob/master/Tester/app/src/main/java/com/example/tester/Main4Activity.java) ,
 [activity_main4.xml](https://github.com/cpcp127/Open-Source/blob/master/Tester/app/src/main/res/layout/activity_main4.xml)
+
+- 처음으로 이름,성별,나이를 입력하는 액티비티
+- 입력후 정보를 확인시켜주는 AlertDialog 띄움
+<img src="./스크린샷/2.jpg" width="200" ><img src="./스크린샷/3.jpg" width="200">
 
 -체온을 받아와서 체온을 확인하고 자가진단 및 예방접종을 확인하는 엑티비티
 -엑티비티 상단에서 블루투스 연결 및 해제 등 블루투스 관련 기능 제공
 -우측에 물을표 버튼을 누르면 자신 체온 나이에 따른 미열, 고열 , 정상 확인가능
 
-<img src="./스크린샷/1.jpg" width="200"><img src="./스크린샷/4.jpg" width="200">
-- [Main3Activity.java](https://github.com/cpcp127/Open-Source/blob/master/Tester/app/src/main/java/com/example/tester/Main3Activity.java) ,
+<img src="./스크린샷/1.jpg" width="200">
+<img src="./스크린샷/4.jpg" width="200">
+- [Main3Activity.java](https://github.com/cpcp127/Open-Source/blob/master/Tester/app/src/main/java/com/example/tester/Main3Activity.java),
+
 [activity_main3.xml](https://github.com/cpcp127/Open-Source/blob/master/Tester/app/src/main/res/layout/activity_main3.xml)
 [main.xml](https://github.com/cpcp127/Open-Source/blob/master/Tester/app/src/main/res/menu/main.xml)
 
