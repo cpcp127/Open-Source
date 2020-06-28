@@ -31,6 +31,10 @@ SmartThermometer_Arduino & SmartThermometer_Application
 
 <img src="./스크린샷/1.jpg" width="200"><img src="./스크린샷/4.jpg" width="200">
 
+- [MainActivity.java](https://github.com/cpcp127/Open-Source/blob/master/Tester/app/src/main/java/com/example/tester/MainActivity.java) ,
+[activity_main.xml](https://github.com/cpcp127/Open-Source/blob/master/Tester/app/src/main/res/layout/activity_main.xml)
+- [Main2Activity.java](https://github.com/cpcp127/Open-Source/blob/master/Tester/app/src/main/java/com/example/tester/MainActivity2.java) ,
+[activity_main2.xml](https://github.com/cpcp127/Open-Source/blob/master/Tester/app/src/main/res/layout/activity_main2.xml)
 
 
 -자가진단을 하고 결과를 보는 엑티비티
@@ -39,10 +43,6 @@ SmartThermometer_Arduino & SmartThermometer_Application
 -약국 병원 찾기는 uri intent로 구글에 검색에서 바로 검색
 <img src="./스크린샷/5.jpg" width="200"><img src="./스크린샷/6.jpg" width="200"><img src="./스크린샷/9.jpg" width="200"><img src="./스크린샷/7.jpg" width="200">
 
-- [MainActivity.java](https://github.com/cpcp127/Open-Source/blob/master/Tester/app/src/main/java/com/example/tester/MainActivity.java) ,
-[activity_main.xml](https://github.com/cpcp127/Open-Source/blob/master/Tester/app/src/main/res/layout/activity_main.xml)
-- [Main2Activity.java](https://github.com/cpcp127/Open-Source/blob/master/Tester/app/src/main/java/com/example/tester/MainActivity2.java) ,
-[activity_main2.xml](https://github.com/cpcp127/Open-Source/blob/master/Tester/app/src/main/res/layout/activity_main2.xml)
 
 -자신이 의심되는 질병을 선택한뒤 그 질병에 좋은 음식 및 생활 습관 확인
 
